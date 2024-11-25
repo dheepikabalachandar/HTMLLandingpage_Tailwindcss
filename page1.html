@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coaching Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <script>
+    // Extending Tailwind to include custom gradient colors
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            customBlueStart: '#739FE8',
+            customBlueEnd: '#4F18CA',
+          },
+        },
+      },
+    };
+  </script>
+  
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          righteous: ['Righteous', 'sans-serif'],
+        },
+      },
+    },
+  };
+</script>
+</head>
+<body class="bg-blue-100% text-white font-sans">
+    <header class="w-full h-[119px] bg-white flex items-center justify-between px-8">
+        <div class="flex items-center">
+        <img src="/img/image1.png" alt="Logo" class="h-12 w-auto" />
+        
+      </div>
+      <nav class="flex space-x-4 text-[20px] font-[Righteous] text-black ">
+        <a href="#" class="hover:text-gray-600">Home</a>
+        <a href="#" class="hover:text-gray-600">About</a>
+        <a href="#" class="hover:text-gray-600">Courses</a>
+        <a href="#" class="hover:text-gray-600">Contact</a>
+      </nav>
+      
+      <div class="flex items-center space-x-6">
+        <div class="flex items-center space-x-6">
+            <!-- Shopping Cart with Badge -->
+            <div class="relative w-[25px] h-[25px] flex items-center justify-center">
+                <!-- Shopping Cart Icon -->
+                <i class="fas fa-shopping-basket" style="color: #000000; font-size: 1rem;"></i>
+                <!-- Badge -->
+                <span
+                  class="absolute -top-1 -right-1 bg-green-500 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">0</span>
+              </div>
+          
+            <!-- User Profile -->
+            <i class="fas fa-user-circle text-2xl text-black"  style="color: #1B2336; font-size: 1rem;" ></i>
+          
+            <!-- Search -->
+            <i class="fas fa-search text-2xl text-black"></i>
+          </div>
+        <div class="space-x-2">
+            <a href="#" class="text-gray-700 hover:text-gray-900 underline">Login</a>
+          <button class="bg-purple-600 px-4 py-1 rounded hover:bg-purple-800 text-white">Signup</button>
+        </div>
+      </div>
+  </header>
+
+  <main
+  class="relative flex flex-col md:flex-row items-center px-8 md:px-20 pt-12"
+  style="background-image: url('/img/Rectangle 8679.png'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 936px; width: 1920px;"
+>
+    <div class="md:w-1/2 text-center md:text-left">
+        <div class=" top-[286px] left-[147px] leading-[20px] tracking-[3px] text-3xl md:text-5xl font-bold">
+  Successful Coaches Are Visionaries
+</div>
+
+      <p class="mt-4 text-lg md:text-xl">
+        <span class="font-bold text-blue-300">Good coaching</span> is good teaching & nothing else.
+      </p>
+      <div class="mt-6 space-x-4">
+        <button class="bg-purple-600 px-6 py-2 rounded hover:bg-purple-800">View Courses</button>
+        <button class="bg-white text-blue-900 px-6 py-2 rounded hover:bg-gray-200">Get Free Consultation</button>
+      </div>
+      <div class="mt-8">
+        <input
+          type="text"
+          placeholder="What do you want to learn today?"
+          class="px-4 py-2 rounded-l border-none focus:outline-none w-2/3"
+        />
+        <button class="bg-purple-600 px-4 py-2 rounded-r hover:bg-purple-800">Search</button>
+      </div>
+    </div>
+
+    <div class="md:w-1/2 mt-12 md:mt-0 relative">
+        <div
+    class="absolute bg-white blur-[300px] rounded-full w-[740px] h-[769px]"
+  ></div>
+  
+  <!-- Image inside Ellipse -->
+  <div
+    class="relative   overflow-hidden shadow-lg">
+    <img
+    src="/img/Ellipse 8324.png"
+    alt="Blur Background"
+    class="absolute w-[740px] h-[769px] object-cover"
+  />
+  
+  <!-- Elliptical Image -->
+  <div
+    class="relative w-[558x] h-[922px]  overflow-hidden shadow-lg">
+    <img
+      src="/img/brunette-woman-hugging-laptop 1 (1).png"
+      alt="Coaching Image"
+      class="w-full h-full object-cover"
+    />
+  </div>
+  </div>
+      <p class="absolute top-4 right-0 bg-white text-blue-900 p-4 rounded shadow-lg w-2/3 text-sm">
+        In a coaching role, you ask the questions and rely more on your staff, who become the experts, to provide the information.
+      </p>
+    </div>
+  </main>
+
+  <footer
+  class="mt-0.5 p-4"
+  style="background-image: url('/img/Rectangle 8678.png'); background-size: cover; background-position: center;"
+>
+    <!-- Background Image -->
+    <div 
+      class="absolute inset-0 bg-cover bg-center opacity-10 bg-gradient-to-r from-blue-500 to-purple-500"
+     >
+    </div>
+  
+    <!-- Footer Content -->
+    <div class="relative z-10 flex justify-between items-center px-8">
+        <img src="/img/Link ⏵ brand6.png.png" alt="Spotify" class="w-[140px] h-[42.42px]" />
+        <img src="/img/Link ⏵ brand1.png.png" alt="Amazon" class="w-[140px] h-[42.42px]" />
+        <img src="/img/Link ⏵ brand6.png.png" alt="Spotify" class="w-[140px] h-[42.42px]" />
+        <img src="/img/Link ⏵ brand3.png.png" alt="Cisco" class="w-[140px] h-[42.42px]" />
+        <img src="/img/Link ⏵ brand5.png.png" alt="Logitech" class="w-[140px] h-[42.42px]" />
+        <img src="/img/Link ⏵ brand1.png.png" alt="Amazon" class="w-[140px] h-[42.42px]" />
+      </div>
+      
+  
+    
+  </footer>
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="w-20 h-20 border-4 border-[#4883FF] rounded-full mr-30"></div>
+    <h1 class="text-center text-3xl font-bold text-gray-800 mb-8">
+        Featured <span class="text-[#4883FF]">Courses</span>
+      </h1>
+    <p class="text-center text-gray-600 mb-12">The feature courses are uniquely crafted to elevate your learning experience</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
+      <!-- Course Card 1 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="/img/Group 1000014973.png" alt="Course Image" class="w-full">
+        
+      </div>
+
+      <!-- Course Card 2 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="/img/Group 1000014974.png" alt="Course Image" class="w-full">
+       
+      </div>
+
+      <!-- Course Card 3 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="/img/Group 1000014975.png" alt="Course Image" class="w-full">
+       
+      </div>
+
+      <!-- Course Card 4 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="/img/Group 1000014976.png" alt="Course Image" class="w-full">
+       
+      </div>
+
+      <!-- Course Card 5 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="/img/Group 1000014977.png" alt="Course Image" class="w-full">
+       
+      </div>
+
+      <!-- Course Card 6 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="/img/Group 1000014978.png" alt="Course Image" class="w-full">
+       
+      </div>
+    </div>
+    
+  </div>
+
+  </div>
+  <div class="flex justify-center mt-12">
+    <button class="bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold py-50 px-10 rounded">
+    Explore Cources
+    </button>
+  </div>
+  <div class="w-[1920px] h-[779px] text-white flex flex-col justify-center items-center mx-auto mb-8 rounded-lg shadow-lg" 
+  style="background: linear-gradient(to right, #739FE8 0%, #4F18CA 100%);">
+    <div class="text-center mb-8">
+        <h2 class="text-3xl font-bold mb-4">
+            Why <span style="color: #0E38CD;">learn</span> with our courses?
+          </h2>
+      <p class="text-gray-200">We are providing the best courses and top classes, along with extraordinary placement training.....</p>
+    </div>
+    <div class="flex flex-row justify-center gap-8 text-center">
+      <!-- Learn -->
+      <div>
+        <div class="mb-4">
+          <img src="/img/Icon (2).png" alt="Learn Icon" class="mx-auto">
+        </div>
+        <h3 class="font-bold text-xl">01. Learn</h3>
+        <p class="text-gray-200 mt-2">Learn confidently. There is always one more thing to learn.</p>
+      </div>
+      <!-- Graduate -->
+      <div>
+        <div class="mb-4">
+          <img src="/img/Icon (3).png" alt="Graduate Icon" class="mx-auto">
+        </div>
+        <h3 class="font-bold text-xl">02. Graduate</h3>
+        <p class="text-gray-200 mt-2">Graduate with recognition. Be your best.</p>
+      </div>
+      <!-- Work -->
+      <div>
+        <div class="mb-4">
+          <img src="/img/Icon (4).png" alt="Work Icon" class="mx-auto">
+        </div>
+        <h3 class="font-bold text-xl">03. Work</h3>
+        <p class="text-gray-200 mt-2">Great companies are built by hard work and teamwork.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 2: Top Categories -->
+  <div class="w-[1920px] h-[779px] bg-gray-300 py-8 px-8 mx-auto rounded-lg shadow-lg">
+    <div class="text-center mb-8">
+      <h2 class="text-3xl font-bold text-gray-800">Top Categories</h2>
+      <p class="text-gray-600">100+ unique online courses in various disciplines</p>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+      <!-- Category Card -->
+      <div class="bg-white rounded-lg shadow-md p-4 text-center">
+        <img src="/img/div.features-box-image.png" alt="Digital Marketing" class="w-full h-40 object-cover rounded-t-lg mb-4">
+        <h3 class="text-lg font-bold text-gray-800 mb-2">Digital Marketing</h3>
+        <p class="text-gray-600">25 Courses</p>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4 text-center">
+        <img src="/img/div.features-box-image (1).png" alt="Digital Marketing" class="w-full h-40 object-cover rounded-t-lg mb-4">
+
+        <h3 class="text-lg font-bold text-gray-800 mb-2">Web Development</h3>
+        <p class="text-gray-600">10 Courses</p>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4 text-center">
+        <img src="/img/div.features-box-image (2).png" alt="Digital Marketing" class="w-full h-40 object-cover rounded-t-lg mb-4">
+
+        <h3 class="text-lg font-bold text-gray-800 mb-2">Art & Humanities</h3>
+        <p class="text-gray-600">70 Courses</p>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4 text-center">
+        <img src="/img/div.features-box-image (3).png" alt="Digital Marketing" class="w-full h-40 object-cover rounded-t-lg mb-4">
+
+        <h3 class="text-lg font-bold text-gray-800 mb-2">Personal Development</h3>
+        <p class="text-gray-600">40 Courses</p>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4 text-center">
+        <img src="/img/div.features-box-image (4).png" alt="Digital Marketing" class="w-full h-40 object-cover rounded-t-lg mb-4">
+
+        <h3 class="text-lg font-bold text-gray-800 mb-2">IT and Software</h3>
+        <p class="text-gray-600">10 Courses</p>
+      </div>
+      <div class="bg-white rounded-lg shadow-md p-4 text-center">
+        <img src="/img/div.features-box-image1.png" alt="Digital Marketing" class="w-full h-40 object-cover rounded-t-lg mb-4">
+
+        <h3 class="text-lg font-bold text-gray-800 mb-2">Graphic Design</h3>
+        <p class="text-gray-600">65 Courses</p>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <!-- Subscribe Section -->
+    <div class="relative w-[750px] h-auto bg-gradient-to-r from-purple-500 to-blue-500 text-white rounded-lg shadow-md flex flex-col justify-center items-center p-6 mb-12">
+      <h3 class="text-xl font-bold mb-4 text-center">Subscribe For Get Update Every New Courses</h3>
+      <form class="w-full max-w-md flex flex-col sm:flex-row items-center gap-4">
+        <input
+          type="email"
+          placeholder="Enter your email"
+          class="flex-grow px-4 py-2 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-blue-300"
+          required
+        />
+        <button
+          type="submit"
+          class="px-6 py-2 bg-blue-700 rounded-md text-white hover:bg-blue-800 focus:outline-none"
+        >
+          Subscribe
+        </button>
+      </form>
+  
+      <!-- Avatar Images -->
+      <div class="absolute top-0 left-0">
+        <img src="https://via.placeholder.com/40" alt="Avatar 1" class="w-10 h-10 rounded-full border-2 border-white">
+      </div>
+      <div class="absolute top-0 right-0">
+        <img src="https://via.placeholder.com/40" alt="Avatar 2" class="w-10 h-10 rounded-full border-2 border-white">
+      </div>
+      <div class="absolute bottom-0 left-0">
+        <img src="https://via.placeholder.com/40" alt="Avatar 3" class="w-10 h-10 rounded-full border-2 border-white">
+      </div>
+      <div class="absolute bottom-0 right-0">
+        <img src="https://via.placeholder.com/40" alt="Avatar 4" class="w-10 h-10 rounded-full border-2 border-white">
+      </div>
+    </div>
+  
+    <!-- Video Section -->
+    <div class="relative w-[750px] h-[400px] bg-gray-200 rounded-lg overflow-hidden shadow-md">
+      <!-- Embed YouTube Video -->
+      <iframe
+        class="w-full h-full"
+        src="https://www.youtube.com/embed/--bnc3bqvcc?si=dC7baYQr05wjbcyj"
+        title="YouTube video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+  
+      <!-- Decorative Shapes -->
+      <div class="absolute bottom-4 left-4">
+        <div class="w-6 h-6 bg-blue-500 rotate-45"></div>
+      </div>
+      <div class="absolute bottom-4 right-4">
+        <div class="w-6 h-6 bg-orange-500"></div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-gray-100 py-16">
+    <!-- Testimonials Section -->
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-blue-600">Testimonials</h2>
+      <p class="text-gray-600">What our students say about us</p>
+    </div>
+  
+    <!-- Testimonial Boxes -->
+    <div class="flex justify-center gap-8 items-center">
+      <!-- Box 1 -->
+      <div class="bg-white w-[550px] shadow-md rounded-lg p-6 text-center relative">
+        <img src="https://via.placeholder.com/60" alt="User 1" class="w-16 h-16 rounded-full mx-auto mb-4 border-4 border-white -translate-y-8">
+        <p class="text-gray-600 italic mb-4">
+          "Such an amazing trainer and really understood the entire syllabus. The knowledge was super, and good to the way of explaining."
+        </p>
+        <div class="text-yellow-400 flex justify-center gap-1 mb-2">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+      </div>
+  
+      <!-- Box 2 (Center Box - Elevated) -->
+      <div class="bg-white w-[550px] shadow-md rounded-lg p-6 text-center relative -translate-y-6">
+        <img src="https://via.placeholder.com/60" alt="User 2" class="w-16 h-16 rounded-full mx-auto mb-4 border-4 border-white -translate-y-8">
+        <p class="text-gray-600 italic mb-4">
+          "Such an amazing trainer and really understood the entire syllabus. The knowledge was super, and good to the way of explaining."
+        </p>
+        <div class="text-yellow-400 flex justify-center gap-1 mb-2">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+      </div>
+  
+      <!-- Box 3 -->
+      <div class="bg-white w-[550px] shadow-md rounded-lg p-6 text-center relative">
+        <img src="https://via.placeholder.com/60" alt="User 3" class="w-16 h-16 rounded-full mx-auto mb-4 border-4 border-white -translate-y-8">
+        <p class="text-gray-600 italic mb-4">
+          "Such an amazing trainer and really understood the entire syllabus. The knowledge was super, and good to the way of explaining."
+        </p>
+        <div class="text-yellow-400 flex justify-center gap-1 mb-2">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+    <!-- Footer Section -->
+    <div class="bg-gradient-to-r from-purple-500 to-blue-500 text-white py-12">
+      <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-3 gap-8">
+        <!-- Connect -->
+        <div>
+          <h4 class="text-xl font-bold mb-4">Connect</h4>
+          <p>Address:</p>
+          <p>Street Name & No</p>
+          <p>City, State, ZIP</p>
+        </div>
+        <!-- Classes -->
+        <div>
+          <h4 class="text-xl font-bold mb-4">Classes</h4>
+          <ul>
+            <li>Classroom Courses</li>
+            <li>Virtual Classroom</li>
+            <li>E-learning Courses</li>
+            <li>Offline Courses</li>
+          </ul>
+        </div>
+        <!-- Quick Links -->
+        <div>
+          <h4 class="text-xl font-bold mb-4">Quick Links</h4>
+          <ul>
+            <li>Home</li>
+            <li>Admissions</li>
+            <li>Testimonials</li>
+            <li>Programs</li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center mt-8">
+        <p>© 2023 Your Company Name. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+    
+  
+  
+</body>
+</html>
